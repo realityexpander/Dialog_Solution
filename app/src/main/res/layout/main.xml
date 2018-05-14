@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/changeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick = "setDate"
+        android:text="Click To Change Date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current/Selected Date (M-D-YYYY): "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+  
+    <TextView
+        android:id="@+id/Output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    
+
+</LinearLayout>
